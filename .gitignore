@@ -1,0 +1,95 @@
+# この .gitignore ファイルは Unity プロジェクトのルートディレクトリに配置する必要があります
+#
+# 最新版を取得するには https://github.com/github/gitignore/blob/main/Unity.gitignore からダウンロードしてください
+#
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# MemoryCaptures ディレクトリのサイズが大きくなる可能性があります。
+# また、非常に機密性の高いデータを含む可能性があります
+/[Mm]emoryCaptures/
+
+# Recordings ディレクトリのサイズが大きくなる可能性があります
+/[Rr]ecordings/
+
+# アセットストアツールプラグインを無視したい場合は、この行のコメントを解除してください
+# /[Aa]ssets/AssetStoreTools*
+
+# 自動生成された Jetbrains Rider プラグイン
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Visual Studio キャッシュディレクトリ
+.vs/
+
+# Gradle キャッシュディレクトリ
+.gradle/
+
+# 自動生成された VS/MD/Consulo のソリューションおよびプロジェクトファイル
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D が生成するメタファイル
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D がクラッシュレポートで生成するファイル
+sysinfo.txt
+
+# ビルドファイル
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.ipa
+*.exe
+
+# Crashlytics が生成するファイル
+crashlytics-build.properties
+
+# Packed Addressables ディレクトリ
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# 一時的に自動生成された Android アセット
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# フォントファイルを除外
+/[Aa]ssets/[Ff]onts/*.ttf
+/[Aa]ssets/[Ff]onts/*.otf
+/[Aa]ssets/[Ff]onts/*.woff
+/[Aa]ssets/[Ff]onts/*.woff2
+/[Aa]ssets/[Ff]onts/*.eot
+/[Aa]ssets/[Ff]onts/*.svg
+/[Aa]ssets/[Ff]onts/*.ttc
+/[Aa]ssets/[Ff]onts/*.dfont
+/[Aa]ssets/[Ff]onts/*.asset
+
+# Font Atlas（自動生成されるため）
+/[Aa]ssets/[Ff]onts/*.png
+/Aa]ssets/[Ff]onts/*.atlas
+
+# フォント設定ファイル（日本語データなど）
+/[Aa]ssets/[Ff]onts/japanese_full.txt
+
+# 配布・共有禁止のファイル（購入した音楽や画像など）
+Assets/_MyAssets/_Ignore/
