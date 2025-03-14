@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d40d8ba670588fd49bb112ae38c50c7c, type: 3}
+  m_Name: HandednessGalleryData
+  m_EditorClassIdentifier: 
+  rightHandedItems:
+  - label: "\u53F3\u5229\u304D\uFF08\u901A\u5E38\u30E2\u30FC\u30C9\uFF09"
+    identifier: right1
+    image: {fileID: 21300000, guid: d30fb447a2172904a97bc0c8fd4fa59b, type: 3}
+  - label: "\u53F3\u5229\u304D\uFF08\u63CF\u753B\u30E2\u30FC\u30C9\uFF09"
+    identifier: right2
+    image: {fileID: 21300000, guid: f54523e0ba1d1fc4a896f63ff68be681, type: 3}
+  leftHandedItems:
+  - label: "\u5DE6\u5229\u304D\uFF08\u901A\u5E38\u30E2\u30FC\u30C9\uFF09"
+    identifier: left1
+    image: {fileID: 21300000, guid: e4933dcbc657b9e41a46be8509f95b47, type: 3}
+  - label: "\u5DE6\u5229\u304D\uFF08\u63CF\u753B\u30E2\u30FC\u30C9\uFF09"
+    identifier: left2
+    image: {fileID: 21300000, guid: e8a4a548a467ca1488eeedd608fe12d5, type: 3}
